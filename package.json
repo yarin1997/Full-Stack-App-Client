@@ -3,13 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^5.16.6",
+    "@mui/material": "^5.16.6",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.2",
+    "bootstrap": "^5.3.3",
+    "formik": "^2.4.6",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-router-dom": "^6.25.1",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "yup": "^1.4.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,5 +43,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@eslint/compat": "^1.1.1",
+    "@eslint/js": "^9.7.0",
+    "eslint": "^8.0.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-react": "^7.35.0",
+    "globals": "^15.8.0"
   }
 }
